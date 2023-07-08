@@ -21,7 +21,7 @@ from appMy.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Hakkımızda/', About ,name='Hakkımızda'),
-    path('İletişim/',Contact,name='İletişim'),
+    path('İletisim/',Contact,name='İletişim'),
     path('yorum/',Testimonial,name='Yorum'),
     path('', İndex, name='Anasayfa'),
     path('detay/', Chocolate, name='Detay'),
